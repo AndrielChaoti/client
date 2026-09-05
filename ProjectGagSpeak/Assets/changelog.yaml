@@ -1,7 +1,50 @@
 icon: "Book"
 tagline: "GagSpeak 2.2 - The Chat Update"
-subline: "DM Integration, 150+ new emotes, GIF Support, stickers, vanity names, name colors, and more."
+subline: "150+ new emotes, GIF Support, stickers, vanity names, name colors, and more."
 changelog:
+
+  - version: v2.2.1.0
+    date: "September 4th, 2026"
+    title: "Hardcore Escape & Other Improvements/Fixes"
+    headerMessage: ""
+    segments:
+      - icon: "Handcuffs"
+        title: "Hardcore Escape - Added by Yfthbr"
+        accent: "Pink"
+        bullets:
+          - text: "Added an optional dice-roll based escape minigame."
+            isImportant: true
+          - text: "Minigame works when using HC traits and removing or unlocking items on yourself."
+            isImportant: true
+          - text: "Hardcore Escape does not allow bypassing locks."
+          - text: "If an item is locked (and you have the ability to unlock it), you must roll your way out of the lock, then must roll for the binding."
+      
+      - icon: "Cog"
+        title: "Quality of Life"
+        accent: "Teal"
+        bullets:
+          - text: "GlobalChat messages now respect legacy tags."
+            isImportant: true
+          - text: "Updated VanityName requirements to help chat names be more uniform in display."
+            isImportant: true
+          - text: "Aliases and VanityNames can now have a min of 4 chars instead of 5."
+          - text: "Trigger lock actions can target a specific item."
+            contributor: "AzureRavie"
+
+      - icon: "Bug"
+        title: "Bug Fixes"
+        accent: "Yellow"
+        bullets:
+          - text: "Fix restraint layers not applying redraws."
+            contributor: "MeowwyMeowMeow"
+          - text: "Fix flags from PrivacyRadar in residential areas."
+            contributor: "Yfthbr"
+          - text: "Fixing gag plate state desync."
+            contributor: "AndrielChaoti"
+          - text: "Fixing flickering when gagplates try to display on names that aren't shown."
+            contributor: "AndrielChaoti"
+          - text: "Fixing toggling gagplates global perm for other kinksters."
+            contributor: "AndrielChaoti"
 
   - version: v2.2.0.6
     date: "August 30th, 2026"
